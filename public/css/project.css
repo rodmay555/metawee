@@ -1,0 +1,1679 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 800;
+}
+
+
+nav.move-nav{
+
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.h_addire{
+    height: 200px;
+}
+
+div.card-header{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.btn-register{
+    width: 200px;
+
+}
+
+.btn-login{
+    width: 200px;
+}
+
+.margin-login{
+    margin: 0px auto 0px;
+
+}
+
+.felx{
+    display: flex;
+    margin-top:20px;
+    flex-direction: column;
+}
+
+.bg-green-f{
+    background-color: #0A6E2B;
+}
+
+
+.home_btn1 {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+
+
+/* welcome */
+
+.container_welcome{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5px 20% 20px;
+
+}
+
+.content-category{
+    margin: 20px 20% 20px;
+}
+
+.content-hecrd{
+    margin: 20px 20% 0px;
+}
+
+
+
+.content-hecrd .opp{
+    margin: 0px 0px 0px 0px;
+    color: rgb(59, 59, 59);
+    font-size: 50px;
+}
+
+.content-category .opp{
+    margin: 0px 0px 10px 0px;
+    color: rgb(59, 59, 59);
+    font-size: 50px;
+
+}
+
+.opp1{
+
+    color: rgb(59, 59, 59);
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.opp2{
+    position: absolute;
+    left: 10px;
+    top:20px;
+    font-size: 30px;
+}
+
+.grid-category{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+}
+
+
+.grid-category a{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid rgb(240, 240, 240);
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5;
+
+
+}
+
+.grid-category a:hover{
+    text-decoration: none;
+    background-color: rgb(241, 241, 241);
+
+
+}
+
+.grid-category a:active{
+    text-decoration: none;
+    background-color: rgb(206, 205, 205);
+
+
+}
+.card-welcome {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 10px 10px 20px;
+    text-align: left;
+    position: relative;
+
+
+  }
+
+  .price {
+    color: rgb(47, 68, 255);
+    font-size: 18px;
+  }
+
+  .welcome-btn-cart{
+      display: flex;
+    margin-left: 15px;
+
+
+
+    overflow: hidden;
+  }
+
+  .card-welcome .btn-cart {
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+
+
+
+
+
+  .card-welcome p{
+      margin: 0;
+      margin-left: 25px;
+  }
+
+  .card-welcome h5{
+      margin: 0;
+      margin-left: 25px;
+      margin-top: 10px;
+  }
+
+
+  .img-g{
+    overflow: hidden;
+  }
+
+  img.img-welcome{
+      width: 100%;
+      height:250px;
+      transition: all .2s ease-in-out;
+      transform: scale(1.05);
+
+
+
+
+  }
+
+  img.img-welcome:hover{
+    transform: scale(1.1);
+
+}
+
+    .search-wel{
+        margin-left: 10px ;
+        margin-bottom: 10px;
+    }
+
+    .search-input{
+        margin-right: 5px;
+        width: 283px;
+    }
+
+    .form-search{
+        display: flex;
+    }
+
+    .btn-search{
+        width: 133px;
+    }
+
+    .home{
+        font-size: 18px;
+        color: #212529;
+    }
+
+    .home_btn{
+        width: 100%;
+    }
+
+    .dialog_home{
+        max-width: 762px;
+    }
+
+/* endwelcome */
+
+
+/* admin */
+.container-admin{
+    /* position: relative; */
+    margin: 15px 10% 30px;
+
+}
+
+.container-admin-product{
+    margin: 15px 5% 30px;
+
+}
+.heard{
+    position: relative;
+}
+.h2{
+    display: inline;
+}
+.btn-create{
+    /* position: absolute;
+    right: 10px;
+    top: 0px; */
+    display: inline-flex;
+    margin-bottom: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.mat-10px{
+    margin-top: 20px;
+}
+
+
+
+th{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+td{
+    color: rgb(65, 65, 65);
+}
+
+th.center{
+    text-align: center;
+
+}
+
+th.width_category{
+    width: 20%;
+}
+
+th.width_category_id{
+    width: 1%;
+}
+
+th.width_category_name{
+    width: 21%;
+    padding-left: 100px;
+}
+
+td.cat-name{
+    padding-left: 100px;
+}
+
+th.width_num{
+    width: 2%;
+}
+
+td.center{
+    text-align: center;
+}
+
+
+
+td.name_category{
+    padding-left: 13%;
+    padding-right: auto;
+}
+
+.label_category{
+    float: left;
+    margin-left: 10px;
+
+}
+
+.del{
+    color: rgb(49, 49, 49);
+    text-align: center;
+}
+
+.not_data{
+    text-align: center;
+    padding-top: 15%;
+    color: rgb(63, 63, 63);
+    border-top: 1px solid  rgb(219, 219, 219);
+    margin-top: 20px;
+
+
+}
+
+textarea.description{
+    display: block;
+    width: 100%;
+    height: 90px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+td.name_product{
+    text-align: center;
+}
+
+.img-edit{
+    border-radius: 20%;
+
+}
+
+.img-edit:hover{
+
+    transform: scale(1.1);
+}
+/* endadmin */
+
+/* cart */
+
+.content-hecrd-cart{
+    font-size: 20px;
+    margin: 20px 20% 0px;
+}
+
+.content-hecrd-cart .opp{
+    font-size: 50px;
+}
+
+    .tit{
+        border-bottom: 1px solid rgb(219, 219, 219);
+
+
+    }
+
+    .total-cart{
+        padding-left:74% ;
+        padding-bottom: 20px;
+    }
+
+    .total-cart p{
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+    .tit-cart{
+        display: grid;
+        grid-template-columns:  30.6% 23% 12.2% 9.8% 6% auto;;
+    }
+
+    .tit-cart .padding-tit{
+        padding-top: 34px;
+
+        color: rgb(70, 70, 70);
+    }
+
+    .total-cart .numder-cart{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .total-cart .numder-cart .number-cc{
+        text-align: right;
+        width: 147px;
+        font-size: 25px;
+        color: rgb(39, 23, 255);
+    }
+
+
+
+    .total-cart .numder-cart .tatolp-cc{
+        text-align: right;
+        width: 155px;
+        font-size: 25px;
+        color: rgb(39, 23, 255);
+    }
+
+
+.btn-cartpp{
+    margin-top: 24px;
+    float: right;
+    width: 142px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+    .table .td-cart{
+        width: 170px;
+    }
+
+    .table .img-edit{
+        border-radius: 10px;
+    }
+
+    .table .name-cart{
+        width: 165px;
+    }
+
+    .table .detail-cart{
+        width: 317px;
+        color: rgb(139, 139, 139);
+        font-size: 16px
+    }
+
+    .table .prie-cart{
+        width: 105px;
+    }
+
+    .table tbody{
+        border-bottom: 1px solid rgb(219, 219, 219);
+    }
+
+    .total-cart{
+        border-bottom: 1px solid rgb(219, 219, 219);
+    }
+
+    .rowbtn{
+        display: flex;
+    }
+
+    .tes-cart{
+        width: 55px;
+    }
+
+    .text_number{
+        font-size: 16px;
+    }
+
+    .not-cart{
+        margin-top: 130px;
+        padding-left: 36%;
+        font-size: 35px;
+    }
+/* endcart */
+
+
+/* pay */
+    .btn-pay{
+        width: 100%;
+    }
+
+    .btn-pay1{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        width: 20%;
+    }
+
+    .content_pay{
+        border-top: 1px solid rgb(235, 235, 235);
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .content_pay1{
+        /* border-top: 1px solid rgb(235, 235, 235); */
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .price_pay{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        padding: 0px 0px 0px 10px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        border-bottom: 1px solid rgb(235, 235, 235);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+    }
+
+    .price_pay .titprice_y{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding-left: 10px;
+        margin-bottom: 2px;
+
+    }
+
+    .price_pay .price_y{
+        grid-column-start: 11;
+        grid-column-end: 13;
+        text-align: right;
+        font-size: 22px;
+        margin-bottom: 2px;
+        margin-right: 18px;
+        color: rgb(22, 65, 255);
+
+    }
+
+    .pay_image{
+            color: rgb(160, 158, 158);
+            font-size: 20px;
+            padding-left: 10px;
+    }
+
+    .h-pay0{
+        margin-top: 20px;
+    }
+
+    .btn-h0{
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 119px;
+    }
+
+    .price_net1{
+        grid-column-start: 9;
+        grid-column-end: 13;
+
+    }
+
+    .price_row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price_com1{
+        display: flex;
+        margin-top: 8px;
+        margin-bottom: 5px;
+
+    }
+
+    .price_com2{
+        display: flex;
+
+    }
+
+    .com1{
+        text-align: right;
+        width: 185px;
+    }
+
+    .com3{
+        text-align: right;
+        width: 177px;
+    }
+
+    .com2{
+        text-align: right;
+        width: 185px;
+        color: #5d5ff0;
+        font-size: 25px;
+    }
+
+    .com4{
+        text-align: right;
+        width: 209px;
+        color: #5d5ff0;
+        font-size: 25px;
+    }
+
+    .footer-order1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 7px;
+        margin-bottom: 100px;
+        padding-bottom: 73px;
+        border-bottom: 1px solid #ececec;
+
+    }
+
+    .compop2{
+        margin-top: 7px;
+    }
+
+    .content-order2 {
+        margin-bottom: -8px;
+        /* border-top: 1px solid #ececec; */
+    }
+
+    .content-order3 {
+        margin-bottom: -8px;
+        margin-top: 50px;
+
+        border-top: 1px solid #ececec;
+    }
+
+    .kb{
+        border: 1px solid #ececec;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+/* end pay */
+
+
+/* order */
+.com_o1{
+    width: 221px;
+    margin-top: 6px;
+    text-align: right;
+    color: #212529;
+}
+
+.com_o2{
+    width: 254px;
+    margin-top: 6px;
+    text-align: right;
+    color: #212529;
+}
+
+.col_order3 {
+    font-size: 16px;
+    margin-left: 28px;
+}
+
+    .hard-order{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        position: relative;
+        border-bottom: 1px solid #ececec;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .hard-order .hard-ti{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lisr-order{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .lisr-order .list-item{
+        display: grid;
+        grid-template-columns: 100px repeat(5,1fr);
+        font-size: 18px;
+    }
+
+    .num-order{
+        text-align: center;
+    }
+
+    .content-order{
+        margin-bottom: 40px;
+        border: 3px solid #ececec;
+        /* border-top: 1px solid #ececec; */
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px; */
+    }
+
+    .content-order1{
+        margin-bottom: 40px;
+
+        /* border-top: 1px solid #ececec; */
+
+    }
+
+    .nnorder{
+        margin-bottom: 20px;
+    }
+
+    .img-order-o{
+        padding-left: 10px;
+    }
+
+    .num-order1{
+        padding-left: 35px;
+    }
+
+    .color-t{
+        color: rgb(84, 128, 250);
+    }
+
+
+    .color-s{
+        color: rgb(51, 138, 56);
+    }
+
+    .hard-ti p{
+        margin-bottom: 5px;
+    }
+
+    .list-item p{
+        color: rgb(100, 73, 73);
+    }
+
+    .content-order-list{
+        border-bottom: 1px solid #ececec;
+    }
+
+    .footer-order{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 7px;
+        margin-bottom: 10px;
+
+    }
+
+    .numberall-order-footer{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        font-size: 18px;
+
+    }
+
+    .numderall-1{
+        grid-column-start: 9;
+        grid-column-end: 11;
+        width: 100%;
+
+    }
+
+    .priceall-2{
+        grid-column-start: 9;
+        grid-column-end: 11;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .priceall-3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .priceall-4{
+        grid-column-start: 4;
+        grid-column-end: 9;
+    }
+
+
+    .color-a{
+        color: rgb(61, 61, 61);
+        font-size: 18px;
+
+    }
+
+    .kb p{
+        margin-bottom: 5px;
+    }
+
+    .kb p.hard_123{
+        font-size: 18px;
+    }
+
+    .n-1{
+        grid-column-start: 11;
+        grid-column-end: 13;
+        text-align: right;
+        padding-right: 87px;
+        font-size: 28px;
+        padding-top: 6px;
+        color: #5d5ff0;
+
+    }
+
+    .p-1{
+        grid-column-start: 11;
+        grid-column-end: 13;
+        text-align: right;
+        padding: 0;
+        padding-right: 10px;
+
+
+    }
+
+
+    .btn1 {
+        display: inline-block;
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+
+    .btn2 {
+        display: inline-block;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        /* border: 1px solid #686868; */
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 5%;
+        background-color: #5a6268;
+        border-color: #5a6268;
+
+    }
+
+    .btn2:hover {
+        text-decoration: none;
+        color: #fff;
+        background-color: #474d52;
+        border-color: #474d52;
+    }
+
+
+    .btn-outline-success1 {
+        color: #28a745;
+        border-color: #28a745;
+    }
+
+    .status-ns1{
+        color: #28a745;
+        border-color: #28a745;
+        border: 1px solid;
+        padding: 0px 9px 0px;
+    }
+
+      .status-ns2{
+        color: #007bff;
+        border-color: #007bff;
+        border: 1px solid;
+        padding: 0px 9px 0px;
+      }
+
+      .status-ns3{
+        color: #ffc107;
+        border-color: #ffc107;
+        border: 1px solid;
+        padding: 0px 9px 0px;
+      }
+
+      .status-ns4{
+        color: #dc3545;
+        border-color: #dc3545;
+        border: 1px solid;
+        padding: 0px 9px 0px;
+      }
+
+
+    .btn-product{
+        width: 170px;
+        padding-top: 21px;
+        margin: 5px 0 5px;
+
+    }
+
+    .btn-product1{
+        width: 170px;
+        height: 68px;
+        padding-top: 21px;
+        margin: 5px 0 5px;
+    }
+
+
+
+    .priceall-order-footer{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        font-size: 18px;
+    }
+
+
+
+    .width_order{
+        width: 100px;
+    }
+
+    .sumeporder{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn-cartpp1{
+        width: 162px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+/* end-order */
+
+/* order-admin */
+    .order-admin-table{
+        margin-top: 20px;
+    }
+/* end order-admin */
+
+
+/* register */
+    .row-input{
+        display: flex;
+
+    }
+
+    .input-1{
+        margin-left: 15px;
+        width: 162px;
+    }
+
+    .input-2{
+        margin-left: 5px;
+        width: 162px;
+    }
+
+    .form-control.textarea{
+        resize: none;
+        height: 120px;
+    }
+
+    .primaig{
+        margin-right: 5px;
+    }
+
+    .number_order_ta{
+        color: #31b668;
+
+    }
+
+    .number_order_ta:hover{
+        text-decoration: none;
+        color: #3fd87f;
+    }
+
+    .modal-with{
+        max-width: 1100px;
+
+    }
+
+    .num-oredii{
+        color: #3fd87f;
+    }
+
+    .modal-with-img{
+        max-width: 484px;
+    }
+
+    .modal-body .img-edit1{
+        width: 450px;
+        height: 600px;
+    }
+
+    .a-img:hover{
+        text-decoration: none;
+        color: #57a8ff;
+    }
+
+    .a-img1{
+        color: #5d5ff0;
+    }
+    .a-img1:hover{
+        color: #3538ee;
+        text-decoration: none;
+    }
+
+    .user-oredii{
+        color: #5d5ff0;
+    }
+
+    .address_de{
+
+        max-width: 466px;
+        overflow: hidden;
+
+
+
+
+    }
+
+    .foealsd{
+        position: absolute;
+        left: 20px;
+        bottom: 22px;
+    }
+
+    .tekkd{
+        color: #484bf5;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .text-tek{
+        color: #5d5ff0;
+        font-size: 20px;
+
+    }
+
+    .text-pri{
+        color: #ffc107;
+        font-size: 20;
+    }
+
+
+    .text-pri1{
+        color: #3fd87f;
+        font-size: 20;
+    }
+
+    .text-pri3{
+        color: #007bff;
+        font-size: 16px;
+    }
+
+    .text-pri2{
+        color: #dc3545;
+        font-size: 16px;
+    }
+
+    .with-date{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .number_product p{
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .p_danger{
+        color: #dc3545;
+    border-color: #dc3545;
+    }
+
+    .btn-receipt{
+        position: absolute;
+        right: -14px;
+        top: -14px;
+    }
+
+    .row-pp{
+        display: flex;
+    }
+
+    .with-left{
+        margin-left: 10px;
+    }
+
+
+
+    .input-group-text {
+        height: 38px;
+    }
+
+    .custom-file-label {
+        font-size: 16px;
+    }
+
+    .input-margin-t{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .detail_pro{
+        display: flex;
+        border: 2px solid #dadada;
+        padding: 30px
+    }
+
+    .img-detail{
+        width: 450px;
+        height: 436p;
+        padding: 10px;
+        margin-right: 30px ;
+
+
+    }
+
+    .detail_pro2{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px 30px 30px;
+
+        border-left: 1px solid #e2e2e2;
+        position: relative;
+    }
+
+    .name_product{
+        font-size: 26px;
+    }
+
+    .detail_product{
+        font-size: 20px;
+    }
+
+
+    .category_product{
+        font-size: 20px;
+    }
+
+    .price_product{
+        position: absolute;
+        right: 20px;
+        bottom:37px;
+        text-align: right;
+        font-size: 35px;
+        color: #007bff;
+
+    }
+
+    .foot{
+        position: absolute;
+        bottom: 0;
+        right: 16px;
+        width: 209px;
+
+    }
+
+    .card-body p{
+        color: rgb(100, 100, 100);
+    }
+
+    .file_pay{
+        margin-top: 20px
+    }
+
+
+/* endregister */
+@media only screen and (max-width: 1793px) {
+    .container_welcome{
+
+        grid-template-columns: repeat(4, 1fr);
+
+
+    }
+
+    img.img-welcome {
+
+        height: 213px
+    }
+
+    .card-welcome h5 {
+        margin-left: 13px;
+    }
+
+    .card-welcome p {
+
+        margin-left: 13px;
+    }
+
+    .welcome-btn-cart {
+
+        margin-left: 8px;
+    }
+
+    h5 .h5{
+        font-size: 18px;
+        color: rgb(58, 58, 58);
+    }
+
+    .card-welcome .btn-cart {
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .image_detail{
+        height: auto;
+    }
+
+    .img-detail {
+        width: 386px;
+    }
+
+    .tit-cart {
+
+        grid-template-columns: 29.6% 18% 14.2% 9.8% 12% auto;
+    }
+
+    .btn_dan_order{
+        width: 84px;
+    }
+
+    .content-hecrd-cart{
+
+        margin: 20px 16% 0px;
+    }
+
+
+    .table td.total_price_order{
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+        text-align: right;
+        width: 174px;
+    }
+
+    .total-cart {
+        padding-left: 72%;
+    }
+
+    .home_btn1{
+        position: absolute;
+        right: 10px;
+        top:8px
+    }
+
+    .text_modal_home{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1435px) {
+    .container_welcome{
+
+        grid-template-columns: repeat(3, 1fr);
+
+
+    }
+
+    .grid-category{
+
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .card-welcome .btn-cart {
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1075px) {
+    .container_welcome{
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .card-welcome .btn-cart {
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+}
+
+
+@media only screen and (max-width: 716px) {
+    .container_welcome{
+
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+    .card-welcome .btn-cart {
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+}
+
+
+/*@preserve
+ * Tempus Dominus Bootstrap4 v5.0.0-alpha14 (https://tempusdominus.github.io/bootstrap-4/)
+ * Copyright 2016-2017 Jonathan Peterson
+ * Licensed under MIT (https://github.com/tempusdominus/bootstrap-3/blob/master/LICENSE)
+ */
+
+ .sr-only, .bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after, .bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after, .bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after, .bootstrap-datetimepicker-widget .btn[data-action="clear"]::after, .bootstrap-datetimepicker-widget .btn[data-action="today"]::after, .bootstrap-datetimepicker-widget .picker-switch::after, .bootstrap-datetimepicker-widget table th.prev::after, .bootstrap-datetimepicker-widget table th.next::after {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0; }
+
+  .bootstrap-datetimepicker-widget {
+    list-style: none; }
+    .bootstrap-datetimepicker-widget.dropdown-menu {
+      display: block;
+      margin: 2px 0;
+      padding: 4px;
+      width: 15rem; }
+      @media (min-width: 576px) {
+        .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+          width: 38em; } }
+      @media (min-width: 768px) {
+        .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+          width: 38em; } }
+      @media (min-width: 992px) {
+        .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
+          width: 38em; } }
+      .bootstrap-datetimepicker-widget.dropdown-menu:before, .bootstrap-datetimepicker-widget.dropdown-menu:after {
+        content: '';
+        display: inline-block;
+        position: absolute; }
+      .bootstrap-datetimepicker-widget.dropdown-menu.bottom:before {
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid #ccc;
+        border-bottom-color: rgba(0, 0, 0, 0.2);
+        top: -7px;
+        left: 7px; }
+      .bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid white;
+        top: -6px;
+        left: 8px; }
+      .bootstrap-datetimepicker-widget.dropdown-menu.top:before {
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #ccc;
+        border-top-color: rgba(0, 0, 0, 0.2);
+        bottom: -7px;
+        left: 6px; }
+      .bootstrap-datetimepicker-widget.dropdown-menu.top:after {
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid white;
+        bottom: -6px;
+        left: 7px; }
+      .bootstrap-datetimepicker-widget.dropdown-menu.float-right:before {
+        left: auto;
+        right: 6px; }
+      .bootstrap-datetimepicker-widget.dropdown-menu.float-right:after {
+        left: auto;
+        right: 7px; }
+    .bootstrap-datetimepicker-widget .list-unstyled {
+      margin: 0; }
+    .bootstrap-datetimepicker-widget a[data-action] {
+      padding: 6px 0; }
+    .bootstrap-datetimepicker-widget a[data-action]:active {
+      box-shadow: none; }
+    .bootstrap-datetimepicker-widget .timepicker-hour, .bootstrap-datetimepicker-widget .timepicker-minute, .bootstrap-datetimepicker-widget .timepicker-second {
+      width: 54px;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin: 0; }
+    .bootstrap-datetimepicker-widget button[data-action] {
+      padding: 6px; }
+    .bootstrap-datetimepicker-widget .btn[data-action="incrementHours"]::after {
+      content: "Increment Hours"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="incrementMinutes"]::after {
+      content: "Increment Minutes"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="decrementHours"]::after {
+      content: "Decrement Hours"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="decrementMinutes"]::after {
+      content: "Decrement Minutes"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="showHours"]::after {
+      content: "Show Hours"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="showMinutes"]::after {
+      content: "Show Minutes"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="togglePeriod"]::after {
+      content: "Toggle AM/PM"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="clear"]::after {
+      content: "Clear the picker"; }
+    .bootstrap-datetimepicker-widget .btn[data-action="today"]::after {
+      content: "Set the date to today"; }
+    .bootstrap-datetimepicker-widget .picker-switch {
+      text-align: center; }
+      .bootstrap-datetimepicker-widget .picker-switch::after {
+        content: "Toggle Date and Time Screens"; }
+      .bootstrap-datetimepicker-widget .picker-switch td {
+        padding: 0;
+        margin: 0;
+        height: auto;
+        width: auto;
+        line-height: inherit; }
+        .bootstrap-datetimepicker-widget .picker-switch td span {
+          line-height: 2.5;
+          height: 2.5em;
+          width: 100%; }
+    .bootstrap-datetimepicker-widget table {
+      width: 100%;
+      margin: 0; }
+      .bootstrap-datetimepicker-widget table td,
+      .bootstrap-datetimepicker-widget table th {
+        text-align: center;
+        border-radius: 0.25rem; }
+      .bootstrap-datetimepicker-widget table th {
+        height: 20px;
+        line-height: 20px;
+        width: 20px; }
+        .bootstrap-datetimepicker-widget table th.picker-switch {
+          width: 145px; }
+        .bootstrap-datetimepicker-widget table th.disabled, .bootstrap-datetimepicker-widget table th.disabled:hover {
+          background: none;
+          color: #868e96;
+          cursor: not-allowed; }
+        .bootstrap-datetimepicker-widget table th.prev::after {
+          content: "Previous Month"; }
+        .bootstrap-datetimepicker-widget table th.next::after {
+          content: "Next Month"; }
+      .bootstrap-datetimepicker-widget table thead tr:first-child th {
+        cursor: pointer; }
+        .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+          background: #e9ecef; }
+      .bootstrap-datetimepicker-widget table td {
+        height: 54px;
+        line-height: 54px;
+        width: 54px; }
+        .bootstrap-datetimepicker-widget table td.cw {
+          font-size: .8em;
+          height: 20px;
+          line-height: 20px;
+          color: #868e96; }
+        .bootstrap-datetimepicker-widget table td.day {
+          height: 20px;
+          line-height: 20px;
+          width: 20px; }
+        .bootstrap-datetimepicker-widget table td.day:hover, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td.second:hover {
+          background: #e9ecef;
+          cursor: pointer; }
+        .bootstrap-datetimepicker-widget table td.old, .bootstrap-datetimepicker-widget table td.new {
+          color: #868e96; }
+        .bootstrap-datetimepicker-widget table td.today {
+          position: relative; }
+          .bootstrap-datetimepicker-widget table td.today:before {
+            content: '';
+            display: inline-block;
+            border: solid transparent;
+            border-width: 0 0 7px 7px;
+            border-bottom-color: #007bff;
+            border-top-color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            bottom: 4px;
+            right: 4px; }
+        .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+          background-color: #007bff;
+          color: #fff;
+          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+        .bootstrap-datetimepicker-widget table td.active.today:before {
+          border-bottom-color: #fff; }
+        .bootstrap-datetimepicker-widget table td.disabled, .bootstrap-datetimepicker-widget table td.disabled:hover {
+          background: none;
+          color: #868e96;
+          cursor: not-allowed; }
+        .bootstrap-datetimepicker-widget table td span {
+          display: inline-block;
+          width: 54px;
+          height: 54px;
+          line-height: 54px;
+          margin: 2px 1.5px;
+          cursor: pointer;
+          border-radius: 0.25rem; }
+          .bootstrap-datetimepicker-widget table td span:hover {
+            background: #e9ecef; }
+          .bootstrap-datetimepicker-widget table td span.active {
+            background-color: #007bff;
+            color: #fff;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+          .bootstrap-datetimepicker-widget table td span.old {
+            color: #868e96; }
+          .bootstrap-datetimepicker-widget table td span.disabled, .bootstrap-datetimepicker-widget table td span.disabled:hover {
+            background: none;
+            color: #868e96;
+            cursor: not-allowed; }
+    .bootstrap-datetimepicker-widget.usetwentyfour td.hour {
+      height: 27px;
+      line-height: 27px; }
+
+  .input-group.date .input-group-append {
+    cursor: pointer; }
+
+
+    .date_order1{
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .date_order2{
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .wbtn{
+            height: 39px;
+            width: 100px;
+    }
+
+    .span-pp{
+        margin-right: 20px;
+        font-size: 22;
+        margin-top: 5px;
+        color: #5f5f5f;
+    }
+
+
+
+
+
+    .grid-category1{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        margin-bottom: 20px;
+    }
+
+
+    .grid-category1 a{
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        border: 1px solid rgb(240, 240, 240);
+        color: rgb(61, 61, 61);
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5;
+
+
+    }
+
+    .grid-category1 a:hover{
+        text-decoration: none;
+        background-color: rgb(241, 241, 241);
+
+
+    }
+
+    .grid-category1 a:active{
+        text-decoration: none;
+        background-color: rgb(206, 205, 205);
+
+
+    }
+
+
+    .all_pp{
+        position: absolute;
+        right: 20%;
+    }
+
+    .color_re{
+
+        color: #007bff;
+        font-size: 40px;
+    }
+
+    .p_{
+        margin: 0 0 0 10px;
+    }
+
+    .wtih_t{
+        width: 100px;
+        margin: 10px 0 10px 0;
+    }
+
+    .btn_search{
+        margin-left: 20px ;
+    }
+
+    .h6_d{
+        margin: 10px 0 0 0 ;
+    }
+
+    .text_ar{
+        text-align: right;
+    }
+
+    .head_order{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .foot_order{
+        background-color: #b7d5f8;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+.tbody_sales{
+    background-color: #d4e8ff;
+}
+
+.thard_sales{
+    background-color: #c2c2c2;
+}
+
+
+.number_order_o{
+    margin-left: 40px;
+}
+
+.fu-btn{
+    width: 100%;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+
+
+.price_total{
+    float: right;
+    margin-right: 10px;
+}
+
+.price_total1{
+    font-size: 30px;
+    color: #007bff;
+    font-weight: 400;
+}
